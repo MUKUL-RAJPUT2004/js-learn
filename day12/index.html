@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<body>
+  <h1 id="title">Hostel</h1>
+  <button id="btn">Add Student</button>
+  <script>
+    // DOM: Change title
+    window.document.querySelector("#title").textContent = "Hostel System";
+    
+    // BOM: Alert on click
+    window.document.querySelector("#btn").addEventListener("click", () => {
+      window.alert("Student Added!");
+    });
+    
+    // JS: Log sorted CGPAs
+    let cgpas = window.Array.from([8.5, 7.9]).sort();
+    window.console.log("Sorted CGPAs:", cgpas);
+  </script>
+</body>
+</html>

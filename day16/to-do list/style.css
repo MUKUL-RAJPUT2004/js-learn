@@ -1,0 +1,103 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #1a1a1a; /* Dark background like the image */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    background-color: #2c2c2c; /* Dark card-like background */
+    color: white;
+    padding: 20px;
+    border-radius: 10px;
+    width: 300px; /* Compact width like the image */
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5); /* Subtle shadow for depth */
+}
+
+h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.input-container {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+#todo-input {
+    flex-grow: 1;
+    padding: 8px;
+    border: none;
+    border-radius: 5px 0 0 5px;
+    outline: none;
+    font-size: 14px;
+}
+
+#add-task-btn {
+    padding: 8px 15px;
+    background-color: #8e2de2; /* Purple button like the image */
+    color: white;
+    border: none;
+    border-radius: 0 5px 5px 0;
+    cursor: pointer;
+    font-size: 14px;
+    transition: background-color 0.3s;
+}
+
+#add-task-btn:hover {
+    background-color: #6b1bb7; /* Darker purple on hover */
+}
+
+#todo-list {
+    list-style-type: none;
+    padding: 0;
+    text-align: left;
+}
+
+/* Style for list items (you can add via JS) */
+#todo-list li {
+    padding: 8px;
+    background-color: #3a3a3a;
+    margin-bottom: 5px;
+    border-radius: 5px;
+}
+
+#todo-list li {
+    padding: 8px;
+    background-color: #3a3a3a;
+    margin-bottom: 5px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+button {
+    background-color: #ff4d4d;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #cc0000;
+}
+
+
+li.completed span {
+    text-decoration: line-through;
+    color: #888;
+}
+
+span {
+    cursor: pointer;
+    flex-grow: 1;
+}
