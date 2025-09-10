@@ -56,16 +56,15 @@ class Car extends Vehicle{
         return `${this.make} : This is an inheritence example`              
     }
 }
-let myCar = new Car("Toyota", "Corola");
+// let myCar = new Car("Toyota", "Corola");
 // console.log(myCar.start());
 // console.log(myCar.drive());
-let vehOne = new Vehicle("Toyota", "Corolla");
+// let vehOne = new Vehicle("Toyota", "Corolla");
 // console.log(vehOne.make);
 
 
 
 //Encapsulation- restricting the usage of the variables
-
 class BankAccount {
     #balance = 0;
 
@@ -192,4 +191,4 @@ let emp = new Employee("Alice", 50000);
 
 emp.salary = 60000;
 // console.log(emp.#salary);
-console.log(emp.salary);
+// console.log(emp.salary);
