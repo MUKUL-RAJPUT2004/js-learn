@@ -79,6 +79,8 @@ class BankAccount {
 }
 
 let account = new BankAccount();
+account.deposit(100);
+// console.log(account.getBalance())
 // 
 
 
@@ -141,17 +143,16 @@ let penguin = new Penguin();
 
 
 //static method
-
 class Calculator{
     static add(a,b){
         return a+b;
     }
 }
 
-// let miniCal = new Calculator();
+let miniCal = new Calculator();
 // console.log(miniCal.add(2,3));
 
-// console.log(Calculator.add(2,3));
+console.log(Calculator.add(2,3));
 
 
 
