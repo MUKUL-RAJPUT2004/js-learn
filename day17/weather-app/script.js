@@ -10,7 +10,7 @@ document.addEventListener('DOMContentLoaded', ()=>{
 //have plan of action befor writing code
 
         getWeatherBtn.addEventListener('click', async ()=>{
-            const city = cityInput.value.trim()
+            const city = cityInput.value.trim()     //remove spaces and get city name
             if(!city) return;
 
             //it may through error

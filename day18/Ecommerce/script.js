@@ -59,7 +59,7 @@ document.addEventListener('DOMContentLoaded', () => {
         if(cart.length){
             emptyCartMessage.classList.add("hidden");
             cartTotalMessage.classList.remove("hidden");
-           cart.forEach((item, index)=>{
+            cart.forEach((item)=>{
             totalPrice = totalPrice+ item.price;
             const cartItem = document.createElement('div');
             cartItem.innerHTML = `
